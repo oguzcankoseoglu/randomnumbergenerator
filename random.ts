@@ -8,3 +8,8 @@ leftOverArray = wholeArray.filter(x => !except.includes(x)).concat(except.filter
 
 randomNumber = leftover[Math.floor(Math.random() * leftover.length)];
 
+
+
+const logs:{[key:string]: number}[] = [];
+
+const maxPageNumber = prompt("What is highest page number?");
